@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+<body id="body">
 
     <h1>Hello World</h1>
 
-    <h3 id="demo"></h3>
-<script type="module" src="./app.js">
- document.getElementById("demo").innerHTML="Hello World";
-</script>
-<script>  
-    function head() {  
-        var btn = document.createElement("button");  
-        btn.innerHTML = "Click me";  
-        document.body.appendChild(btn);  
-    }  
-</script> 
-<button onclick = "fun()"> Create Button </button>   
+    <div id="root"></div>
+    <script type="module" src="./App.js">
+    </script>
+    <script>
+        var Fun = document.createElement("h1");
+        Fun.innerHTML = "Hello React";
+        document.getElementById("body").appendChild(Fun);
+
+    </script>
 </body>
+
 </html>
