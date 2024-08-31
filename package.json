@@ -1,12 +1,13 @@
 {
   "name": "assignment1",
   "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
+  "description": "assignment2",
   "scripts": {
+    "start": "parcel index.html --open",
+    "build":"parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shaziaabdul",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1",
@@ -15,5 +16,26 @@
   "devDependencies": {
     "parcel": "^2.12.0",
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": {
+    "development": [
+      "last 10 chrome versions",
+      "last 2 firefox version"
+    ]
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaziaabdul/Assignment1.git"
+  },
+  "keywords": [
+    "react",
+    "demo",
+    "app",
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/shaziaabdul/Assignment1/issues"
+  },
+  "homepage": "https://github.com/shaziaabdul/Assignment1#readme"
 }
